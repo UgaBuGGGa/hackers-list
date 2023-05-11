@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-      <div className="flex items-center justify-center mt-5">
-        <div className="bg-blue-900 w-1/8 p-10 h-auto">
+      <div className="md:flex items-center justify-center mt-5">
+        <div className="bg-blue-900 md:w-1/8 p-10 h-auto">
           <div className="flex items-center justify-center mb-10">
             <img src={foto} alt=""
               className="rounded-full w-32 border-2 border-gray-300" />
@@ -27,7 +27,7 @@ function App() {
           <hr className="my-5" />
           
         </div>
-        <div className="bg-white w-7/12 p-10 h-auto">
+        <div className="bg-white md:w-7/12 p-10 h-auto">
           <h1 className="font-semibold uppercase tracking-wider my-6 text-gray-500">ПРО МЕНЕ</h1>
           <h1 className="text-gray-500">Освічений та досвідчений кіберполіцейський з більш ніж 5-річним досвідом роботи в області кібербезпеки та цифрової детективної роботи. Відомий як експерт у виявленні та розслідуванні кіберзлочинів та застосуванні цифрових методів збору доказів.</h1>
           <h1 className="font-semibold uppercase tracking-wider my-6 text-gray-500">ДОСВІД роботи</h1>
